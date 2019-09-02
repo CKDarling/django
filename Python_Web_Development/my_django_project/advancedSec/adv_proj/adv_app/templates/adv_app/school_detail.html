@@ -1,0 +1,24 @@
+{% extends 'adv_app/adv_base.html' %}
+
+{% block body_block %}
+<div class="jumbotron">
+<div class="container">
+        <h1>Skool Detale paige</h1>
+        <br>
+  <div class="row">
+      <div class="col-4">
+          <h2>Skool Detales:</h2>
+          <p>Name: {{school_detail.name}}</p>
+          <p>Principal: {{school_detail.principal}}</p>
+          <p>Location: {{school_detail.location}}</p>
+      </div>
+      <div class="col">
+          <h2>Students: </h2>
+          {% for student in school_detail.students.all %}
+          <p>{{student.name}} who is {{student.age}} years old</p>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

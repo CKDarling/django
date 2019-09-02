@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fuck You</title>
+  </head>
+  <body>
+    <div class="djangtwo">
+      <table>
+        <thead>
+          <th>Topic</th>
+          <th>Name of Web Page</th>
+          <th>URL</th>
+        </thead>
+          {% for page in pages %}
+          <tr>
+            <td>{{ page.topic }}</td>
+            <td>{{ page.name }}</td>
+            <td>{{ page.url }}</td>
+          </tr>
+          {% endfor %}
+      </table>
+    </div>
+  </body>
+</html>

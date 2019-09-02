@@ -1,0 +1,63 @@
+/*
+Comments n shit
+ */
+/*example{
+  property:value;
+}*/
+h1{
+  color: purple;
+}
+/*RGBA - A is for alpha, 0-1 of how translucent the text will be.*/
+h4{
+  color:rgb(145, 178, 112);
+}
+body{
+  background-color: Grey;
+  background-image: url(https://www.google.com/search?q=sky&tbm=isch&tbs=rimg:CanWcV8WEMDAIjistt031bFM-CQrVf5wea1KNU2qySenbx-AkMKZ0GcNEEdqvyvBS-http://sobru.malegoo.se/stor-penis-mens/navy-penis.php-0y83wMlFkqEgm2ViH3EB4S-xGoZxGepgju_1SoSCWTYIrlvR2nyEQB0g4SCbIwA&tbo=u&sa=X&ved=2ahUKEwi6xday45zfAhWLyoMKHQhmB8MQ9C96BAgBEBs&biw=718&bih=772&dpr=2#imgrc=R2q_K8FL5zDfOM:);
+}
+div{
+  background-color:yellow;
+  border-color:Blue;
+  border-width: thick;
+  border-style: dotted;
+}
+span{
+  background:black;
+  color:yellow;
+}
+.firstDiv{
+  color:blue;
+}
+.secondDiv{
+  color:teal;
+}
+/* This is an ID*/
+#singledout{
+  background-color: Green;
+  text-decoration: overline;
+}
+/* This is an overall applied color
+*{
+  color: black;
+}
+*/
+/* Adjacsent Siblings*/
+h3 + ul{
+  border: 4px dotted purple;
+}
+li a{
+  color:red;
+}
+li a[href='https://www.wikipedia.org/']{
+  color:blue;
+  border: 3px solid orange;
+}
+li{
+  color:#ed2894;
+}
+.topitems{
+  color:blue;
+}
+#two{
+  border: 2px solid black;
+}
